@@ -1,3 +1,8 @@
+# Note by the author (Muneeb)
+# You would need to install the spectral library for this. Also give the 
+# hyperspectral path and make sure that the hdr directory also
+# has the .raw file with the same name as the .hdr file.
+
 import spectral
 import numpy as np
 import matplotlib.pyplot as plt
