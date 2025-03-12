@@ -76,3 +76,24 @@ plt.title("NDVI")
 plt.colorbar(label="NDVI value")
 plt.axis("off")
 plt.show()
+
+
+###############################################################################
+#  VISUALIZE THE RED AND NIR BANDS SEPARATELY
+###############################################################################
+
+# Red band (grayscale)
+plt.figure(figsize=(6, 6))
+plt.imshow(red_band, cmap='gray')
+plt.title("Red Band")
+plt.colorbar(label="Pixel Intensity")
+plt.axis("off")
+plt.show()
+
+# NIR band (grayscale)
+plt.figure(figsize=(6, 6))
+plt.imshow(nir_band, cmap='gray')
+plt.title("NIR Band")
+plt.colorbar(label="Pixel Intensity")
+plt.axis("off")
+plt.show()
